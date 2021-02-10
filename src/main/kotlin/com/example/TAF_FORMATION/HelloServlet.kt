@@ -3,7 +3,7 @@ package com.example.TAF_FORMATION
 import javax.servlet.http.*
 import javax.servlet.annotation.*
 
-@WebServlet(name = "helloServlet", value = ["/hello-servlet"])
+@WebServlet(name = "helloWorld", value = ["/hello"])
 class HelloServlet : HttpServlet() {
     private lateinit var message: String
 
@@ -22,5 +22,6 @@ class HelloServlet : HttpServlet() {
     }
 
     override fun destroy() {
+
     }
 }
